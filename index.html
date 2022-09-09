@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cruid system</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-md-5  position-fixed  end-0 w-25 p-5 inputs-style  vh-100 ">
+                <div class="form-group mb-3">
+                    <label class="w-100 fs-5  " for="productName"> product name :</label>
+                    <input  class="  w-100 p-2 " id="productName" type="text">
+                </div> 
+                <div class="form-group mb-3">
+                    <label class="w-100 fs-5 " for="ProductPrice">product price :</label>
+                    <input  class="  w-100 p-2 " id="ProductPrice" type="text">
+                </div>
+                <div class="form-group mb-3">
+                    <label class="w-100 fs-5  " for="ProductCatogry">product Catogry :</label>
+                    <input  class="  w-100 p-2 " id="ProductCatogry" type="text">
+                </div>
+                <div class="form-group mb-3">
+                    <label class="w-100 fs-5 " for="ProductDescription"> product description :</label>
+                    <input  class="  w-100 p-2 " id="ProductDescription" type="text">
+                
+                </div>
+                <div class="form-group mb-3">
+                    <label class="w-100 fs-5 " for="Productsquantity">products quantity :</label>
+                    <input  class="  w-100 p-2 " id="Productsquantity" type="number">
+                </div>
+                <button  id="addProduct" class="btn btn-style mt-4  "> add product</button>
+            </div>
+            <div class="col-md-5 ">
+                <div class="fixed-top w-75 p-1 bg-black text-white">
+                    <h3 class="my-3 fs-1   w-100  fw-bold">CRUD System Manger</h3>
+                    <input  type="search" id="searchItem" class=" w-75  form-control mb-5" placeholder="search by name">
+                </div>
+
+                <table class="table text-center  ">
+                    <thead>
+                        <th>number</th>
+                        <th>productName</th>
+                        <th>ProductPrice</th>
+                        <th>ProductCatogry</th>
+                        <th>ProductDescription</th>
+                        <th>Productsquantity</th>
+                    </thead>
+                    <tbody id="data">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

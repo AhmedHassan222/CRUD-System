@@ -1,0 +1,52 @@
+body{
+    overflow: scroll;
+}
+.btn-style 
+{
+    border: 2px solid blue;
+    color: blue;
+}
+.btn-style:hover{
+    background-color: blue;
+    color: white;
+
+}
+.btn-update-style
+{
+    border:green 2px solid ;
+    color:green ;
+}
+.btn-update-style:hover
+{
+    background-color: green;
+    color: white;
+}
+.btn-delete-style
+{
+    border:red 2px solid ;
+    color: red;
+}
+.btn-delete-style:hover
+{
+    background-color: red;
+    color: white;
+}
+input
+{
+    border-radius: 5px;
+}
+table{
+    margin-top: 35%;
+}
+.inputs-style
+{
+    border: solid 2px black;
+}
+.valid
+{
+    border: red 3px solid ;
+}
+.un-valid
+{
+    border: rgb(12, 12, 156) solid 3px;
+}
